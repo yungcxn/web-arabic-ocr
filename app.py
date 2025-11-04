@@ -4,18 +4,7 @@ from PIL import Image
 import torch, io, base64
 import arabic_reshaper
 from bidi.algorithm import get_display
-import openai
-from openai import OpenAI
 import requests
-
-KEY = ""
-with open("./.key", "r") as f:
-    KEY = f.read().strip()
-
-client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",
-  api_key=KEY
-)
 
 MODEL_ID = "MohamedRashad/arabic-large-nougat"
 

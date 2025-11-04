@@ -10,7 +10,6 @@ dependencies:
   - requests
   - pip:
     - transformers
-    - openai
     - arabic-reshaper
     - python-bidi
     - accelerate

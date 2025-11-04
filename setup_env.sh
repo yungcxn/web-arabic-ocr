@@ -27,7 +27,7 @@ conda install -y -c pytorch -c nvidia pytorch torchvision torchaudio pytorch-cud
 
 # Ensure pip-side packages are installed/updated
 pip install --upgrade pip
-pip install --upgrade transformers openai arabic-reshaper python-bidi accelerate safetensors sentencepiece
+pip install --upgrade transformers arabic-reshaper python-bidi accelerate safetensors sentencepiece
 
 # Quick verification
 python - <<'PY'

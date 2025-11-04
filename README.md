@@ -28,10 +28,6 @@ conda activate arab-ocr
 bash setup_env.sh
 ```
 
-4. Provide an API key for the OpenAI-compatible router used in `app.py`:
-	 create a file named `.key` in the project root and place the key on a single
-	 line. The app reads this file at startup.
-
 Running the app
 ---------------
 Start the Flask app from the project folder:
@@ -51,5 +47,3 @@ Notes and troubleshooting
 	install a specific `pytorch-cuda` version (for example `pytorch-cuda=11.8`).
 - Memory: running large models requires significant RAM and GPU memory. If
 	you run out of memory, use a smaller model or run on CPU.
-- If the app fails to read `.key`, ensure the file exists and contains only
-	the API key (no trailing spaces or extra lines).
